@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails:grails-logging:3.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-logging/3.2.2/42767edb1cc63fe66e6ecf1977e513af8eae250/grails-logging-3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-logging/3.2.2/11cb0c20fda5e0b74bdc796968309258c2123d4f/grails-logging-3.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

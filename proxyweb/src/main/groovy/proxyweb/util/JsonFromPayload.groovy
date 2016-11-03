@@ -1,14 +1,15 @@
 package proxyweb.util
 
 import groovy.json.JsonSlurper
-import org.springframework.integration.transformer.AbstractPayloadTransformer
+import groovy.transform.CompileStatic
 
 /**
  * Created by jorge on 6/10/16.
  */
-class JsonFromPayload extends AbstractPayloadTransformer<String, Object>{
-    @Override
-    protected Object transformPayload(String payload)throws Exception{
+@CompileStatic
+class JsonFromPayload{
+
+    public Object transform(String payload)throws Exception{
         JsonSlurper slurper = new JsonSlurper()
         def json = slurper.parseText(payload)
         json
